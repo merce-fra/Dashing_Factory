@@ -16,10 +16,10 @@ The project is aligned with specifications from _**3GPP**, **5G-ACIA**, **NIST**
   src="docs/pics/all_steps.png"
   alt="Steps Overview"
   width="350">
-  <figcaption><br/><sub><sup>Outline of the DASHing Factory platform architecture : (1) Scenario
+  <figcaption><br/>Outline of the DASHing Factory platform architecture : (1) Scenario
 Specification (3GPP-aligned), (2) Network Simulation (NS-3), (3) Network
 Emulation (Mininet, Linux TC, NetEm), (4) Data Collection and Processing
-(Pandas), and (5) Insights/Predictions (e.g., QoE prediction / anomaly detection - tensorFlow, scikit-learn).</sup></sub></figcaption>
+(Pandas), and (5) Insights/Predictions (e.g., QoE prediction / anomaly detection - tensorFlow, scikit-learn).</figcaption>
 </figure>
 </div>
 
