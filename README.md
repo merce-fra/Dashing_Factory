@@ -1,6 +1,5 @@
 # Dashing Factory
 
-
 [**DASHing Factory**](./docs/paper.pdf) is a modular research platform designed to study, simulate, emulate, and optimize **video streaming and network performance in 5G factory automation environments**. It provides an end-to-end workflow including:
 
 - ***NS-3-based 5G/NR simulation*** : _[5G-LENA](https://5g-lena.cttc.es/)_, realistic channel models.  
@@ -16,11 +15,11 @@ The project is aligned with specifications from _**3GPP**, **5G-ACIA**, **NIST**
   <img
   src="docs/pics/all_steps.png"
   alt="Steps Overview"
-  width="450">
-  <figcaption><br/>Outline of the DASHing Factory platform architecture : (1) Scenario
+  width="350">
+  <figcaption><br/><sub><sup>Outline of the DASHing Factory platform architecture : (1) Scenario
 Specification (3GPP-aligned), (2) Network Simulation (NS-3), (3) Network
 Emulation (Mininet, Linux TC, NetEm), (4) Data Collection and Processing
-(Pandas), and (5) Insights/Predictions (e.g., QoE prediction / anomaly detection - tensorFlow, scikit-learn).</figcaption>
+(Pandas), and (5) Insights/Predictions (e.g., QoE prediction / anomaly detection - tensorFlow, scikit-learn).</sup></sub></figcaption>
 </figure>
 </div>
 
