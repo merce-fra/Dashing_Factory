@@ -11,18 +11,18 @@
 
 The project is aligned with specifications from _**3GPP**, **5G-ACIA**, **NIST**, and **ISA**_, and targets realistic **Industry 4.0** factory scenarios involving mobile robots, cameras, and delay-sensitive video streaming applications.
 
-<div  align="center"  >
+
 <figure>
   <img
   src="docs/pics/all_steps.png"
   alt="Steps Overview"
   width="300">
-  <figcaption>Outline of the DASHing Factory platform architecture : (1) Scenario
+  <figcaption><br/>Outline of the DASHing Factory platform architecture : (1) Scenario
 Specification (3GPP-aligned), (2) Network Simulation (NS-3), (3) Network
 Emulation (Mininet, Linux TC, NetEm), (4) Data Collection and Processing
 (Pandas), and (5) Insights/Predictions (e.g., QoE prediction / anomaly detection - tensorFlow, scikit-learn).</figcaption>
 </figure>
-</div>
+
 
 ## Dataset Information
 
@@ -66,7 +66,7 @@ _📄 Kabou, A., & Khanfouci, M. (2025). [Feature Selection for Data-Driven Opti
  
 
 ## Acknowledgements
-The platform was developed as part of research activities at [**Mitsubishi Electric R&D Centre Europe (MERCE), Rennes, France**](https://www.mitsubishielectric-rce.eu/communication-information-systems/), within research activities on **QoE-aware networking and 5G industrial systems**. 
+The platform was developed as part of research activities at **Mitsubishi Electric R&D Centre Europe (MERCE), Rennes, France**, within research activities on **QoE-aware networking and 5G industrial systems**. 
 The opinions and results presented in this repository are those of the authors and do not necessarily reflect official product developments.
 
 
