@@ -11,7 +11,7 @@
 
 The project is aligned with specifications from _**3GPP**, **5G-ACIA**, **NIST**, and **ISA**_, and targets realistic **Industry 4.0** factory scenarios involving mobile robots, cameras, and delay-sensitive video streaming applications.
 
-
+<div  align="center"  >
 <figure>
   <img
   src="docs/pics/all_steps.png"
@@ -22,7 +22,7 @@ Specification (3GPP-aligned), (2) Network Simulation (NS-3), (3) Network
 Emulation (Mininet, Linux TC, NetEm), (4) Data Collection and Processing
 (Pandas), and (5) Insights/Predictions (e.g., QoE prediction / anomaly detection - tensorFlow, scikit-learn).</figcaption>
 </figure>
-
+</div>
 
 ## Dataset Information
 
