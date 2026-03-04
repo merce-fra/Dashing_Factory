@@ -1,5 +1,5 @@
 # Dashing Factory
-----
+
 
 [**DASHing Factory**](./docs/paper.pdf) is a modular research platform designed to study, simulate, emulate, and optimize **video streaming and network performance in 5G factory automation environments**. It provides an end-to-end workflow including:
 
@@ -16,7 +16,7 @@ The project is aligned with specifications from _**3GPP**, **5G-ACIA**, **NIST**
   <img
   src="docs/pics/all_steps.png"
   alt="Steps Overview"
-  width="300">
+  width="450">
   <figcaption><br/>Outline of the DASHing Factory platform architecture : (1) Scenario
 Specification (3GPP-aligned), (2) Network Simulation (NS-3), (3) Network
 Emulation (Mininet, Linux TC, NetEm), (4) Data Collection and Processing
@@ -35,7 +35,7 @@ The dataset comprises +20 features, organized as follows :
 |_**QoE** related features_| five quality of experience models : [_P1203_](https://dl.acm.org/doi/abs/10.1145/3204949.3208124), [_Clae_](https://dl.acm.org/doi/abs/10.1145/2818361), [_Duanmu_](https://ieeexplore.ieee.org/abstract/document/8352759), [_Yin_](https://dl.acm.org/doi/abs/10.1145/2785956.2787486), [_Yu_](https://ieeexplore.ieee.org/abstract/document/7898405).|
 |||
 
-The dataset is provided for research and educational purposes only.. The final dataset is available under [_`./dataset/dashing_factory_v03.csv`_](./dataset/dashing_factory_v03.csv). 
+The dataset is provided for research and educational purposes only. The final dataset is available under [_`./dataset/dashing_factory_v03.csv`_](./dataset/dashing_factory_v03.csv). 
 
 ## Versioned Directories
 
@@ -52,7 +52,7 @@ The repository contains subfolders for each major version of the Dashing Factory
      - Generates a unified dataset (~22k samples) 
      - Applies ***ML/DL*** models: _SVM, MLP, TabNet, XGBoost_ for _Multi-perspective anomaly detection_ : _Binary classification,   Multi-class (normal, reorder, duplicate, corrupt), High-gravity classification (severity +50%), Fine-grained classification (type × severity)_, c.f. [_`./notebooks`_](./notebooks). 
      - Extensive evaluation and results _(k-fold CV, accuracy/F1 metrics)_.
-     - Documentation and visuals provided in joined [paper](./docs/paper.pdf).
+
 
 
 ## Additional Documentation
